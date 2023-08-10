@@ -33,13 +33,21 @@ body {
 }
 
 .menu li {
-  padding: 10px 15px;
-  margin-left: 15px;
+  margin-left: 10px;
   color: #f3f3f3;
 }
 
+.menu li a {
+  padding: 10px 20px;
+  border-bottom: 2px solid transparent;
+  transition: 0.3s;
+}
+.menu li a:hover {
+  border-color: #fcfcfc;
+}
+
 .home {
-  height: calc(100vh - 144px);
+  height: calc(100vh - 104px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -72,7 +80,7 @@ body {
   cursor: pointer;
   padding: 10px 20px;
   text-align: center;
-  margin-right: 20px;
+  margin-right: 25px;
   font-size: 1.2rem;
 }
 
@@ -81,20 +89,16 @@ body {
   transition: 0.3s;
 }
 .btn-linkedin:hover {
-  background: rgb(101, 143, 247);
-  background: linear-gradient(
-    90deg,
-    rgba(101, 143, 247, 1) 0%,
-    rgba(11, 77, 240, 1) 48%
-  );
+  background-color: #0a66c2;
   transform: scale(1.07);
 }
 .btn-github {
   border: 2px solid #6e40c9;
-  transition: 0.3s;
+  transition: 0.2s;
 }
 .btn-github:hover {
   background-color: #6e40c9;
+  transform: scale(1.07);
 }
 
 .btn-container img {
@@ -104,5 +108,14 @@ body {
 /* SOBRE */
 
 .sobre {
-  margin-top: 72px;
+  margin-top: 52px;
+  text-align: center;
+}
+
+.sobre h2 {
+  font-size: 2rem;
+}
+
+.sobre img {
+  margin: 25px auto;
 }
