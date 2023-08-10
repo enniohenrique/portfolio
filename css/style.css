@@ -19,7 +19,8 @@ body {
 }
 
 .header {
-  margin-top: 30px;
+  font-size: 1.2rem;
+  margin-top: 25px;
 }
 .nav {
   display: flex;
@@ -38,7 +39,7 @@ body {
 }
 
 .home {
-  height: calc(100vh - 146px);
+  height: calc(100vh - 144px);
   display: flex;
   flex-direction: column;
   justify-content: center;
@@ -103,5 +104,5 @@ body {
 /* SOBRE */
 
 .sobre {
-  margin-top: 73px;
+  margin-top: 72px;
 }
