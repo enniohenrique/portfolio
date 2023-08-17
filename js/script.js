@@ -28,3 +28,5 @@ function apagarTexto() {
 }
 
 digitarProximaLetra(); // Inicia o efeito de digitação
+
+
