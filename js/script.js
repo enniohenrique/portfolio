@@ -1,4 +1,4 @@
-const frases = ['Desenvolvedor Front-end', 'Front-End Developer'];
+const frases = ['Desenvolvedor Front-End', 'Front-End Developer'];
 const typewriter = document.querySelector('.titulo');
 
 let indexFraseAtual = 0;
