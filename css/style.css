@@ -29,7 +29,6 @@ p {
 }
 
 .header {
-  /* margin-top: 10px; */
   font-size: 1.2rem;
   padding: 20px;
   position: fixed;
@@ -306,7 +305,7 @@ footer {
   }
 }
 @media (max-width: 500px) {
-  .nav {
+  .header .nav {
     justify-content: center;
   }
   .home h2 {
