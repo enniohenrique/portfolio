@@ -283,7 +283,6 @@ footer {
 
   .flex {
     flex-direction: column;
-    /* border: 3px solid red; */
     text-align: center;
     font-size: 0.875rem;
   }
@@ -304,14 +303,14 @@ footer {
     display: block;
   }
 }
-@media (max-width: 500px) {
+@media (max-width: 600px) {
   .header .nav {
     justify-content: center;
   }
   .home h2 {
     font-size: 1.725rem;
   }
-  .titulo {
+  .efeito-texto {
     font-size: 1.5rem;
   }
 
