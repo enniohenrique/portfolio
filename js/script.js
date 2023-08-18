@@ -1,5 +1,5 @@
 const frases = ['Desenvolvedor Front-End', 'Front-End Developer'];
-const typewriter = document.querySelector('.titulo');
+const typewriter = document.querySelector('.efeito-texto');
 
 let indexFraseAtual = 0;
 let indexLetraAtual = 0;
