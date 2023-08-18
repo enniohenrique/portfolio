@@ -4,8 +4,6 @@ const typewriter = document.querySelector('.titulo');
 let indexFraseAtual = 0;
 let indexLetraAtual = 0;
 
-console.log(frases[indexFraseAtual][0]);
-
 function digitarProximaLetra() {
   if (indexLetraAtual < frases[indexFraseAtual].length) {
     typewriter.textContent += frases[indexFraseAtual][indexLetraAtual];
@@ -29,4 +27,15 @@ function apagarTexto() {
 
 digitarProximaLetra(); // Inicia o efeito de digitação
 
+const header = document.querySelector('.header');
+console.log(header.offsetBottom);
 
+document.addEventListener('scroll', (event) => {
+  // console.log(event);
+  console.log(window.scrollY);
+  if (window.scrollY > 0) {
+    header.style.backgroundColor = '#0536a8';
+  } else {
+    header.style.backgroundColor = '#10101a';
+  }
+});

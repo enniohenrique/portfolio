@@ -6,6 +6,7 @@
   text-decoration: none;
   font-family: Arial, Helvetica, sans-serif;
   color: #f3f3f3;
+  scroll-behavior: smooth;
 }
 
 img {
@@ -18,19 +19,23 @@ body {
   margin: 0 auto;
   background-color: #10101a;
 }
-.img-home {
-  width: 400px;
-  height: 400px;
-  background-image: url('../img/logo.svg');
-}
+
 .header {
+  /* margin-top: 10px; */
   font-size: 1.2rem;
-  margin-top: 25px;
+  padding: 20px;  
+  position: fixed;
+  z-index: 100;
+
+  width: 100%; /* Ocupa a largura total da janela de visualização */
+  max-width: 1200px; /* Define a largura máxima de 1200px */
+  /* box-sizing: border-box;  */
+  border-bottom-left-radius: 20px;
+  border-bottom-right-radius: 20px;
 }
 .nav {
   display: flex;
   justify-content: end;
-  align-items: center;
 }
 
 .menu {
@@ -48,16 +53,21 @@ body {
   transition: 0.3s;
 }
 .menu li a:hover {
-  border-color: #1c59e7;
+  border-color: #0536a8;
 }
 
 .home {
-  height: calc(100vh - 104px);
+  height: calc(100vh);
   display: flex;
   flex-direction: column;
   justify-content: center;
 }
 
+.img-home {
+  width: 400px;
+  height: 400px;
+  background-image: url('../img/logo.svg');
+}
 .home-container {
   text-align: center;
   font-size: 2rem;
@@ -111,7 +121,7 @@ body {
 }
 
 .btn-linkedin {
-  border: 2px solid #0a66c2;
+  border: 2px solid #1c59e7;
 }
 
 .btn-linkedin::before {
@@ -121,7 +131,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #0a66c2;
+  background-color: #1c59e7;
 
   z-index: -1;
   transition: 0.4s;
@@ -156,7 +166,6 @@ body {
 /* SOBRE */
 
 .sobre {
-  margin-top: 52px;
   text-align: center;
 }
 
@@ -196,7 +205,7 @@ body {
   display: flex;
   max-width: 1200px;
   margin: 0 auto;
-  gap: 30px;
+  gap: 50px;
   align-items: center;
   margin-bottom: 50px;
 }
@@ -207,7 +216,7 @@ body {
 }
 
 .flex img {
-  max-width: 585px;
+  max-width: 575px;
   border-radius: 2px;
 }
 
@@ -223,7 +232,7 @@ body {
 }
 
 .container-links a {
-  border: 2px solid #1c59e7;
+  border: 2px solid #0536a8;
   padding: 5px 10px;
   border-radius: 5px;
   font-size: 1.1rem;
@@ -240,7 +249,7 @@ body {
   left: 0;
   width: 0;
   height: 100%;
-  background-color: #1c59e7;
+  background-color: #0536a8;
 
   z-index: -1;
   transition: 0.4s;
