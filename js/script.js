@@ -28,11 +28,8 @@ function apagarTexto() {
 digitarProximaLetra(); // Inicia o efeito de digitação
 
 const header = document.querySelector('.header');
-console.log(header.offsetBottom);
 
 document.addEventListener('scroll', (event) => {
-  // console.log(event);
-  console.log(window.scrollY);
   if (window.scrollY > 0) {
     header.style.backgroundColor = '#0536a8';
   } else {
