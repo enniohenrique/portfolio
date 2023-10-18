@@ -29,6 +29,9 @@ p {
 }
 
 .header {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
   font-size: 1.2rem;
   padding: 20px;
   position: fixed;
@@ -39,17 +42,19 @@ p {
   border-bottom-left-radius: 20px;
   border-bottom-right-radius: 20px;
 }
-.header .nav {
-  display: flex;
-  justify-content: end;
+
+.header h1 {
+  font-size: 1.5rem;
+  font-weight: bold;
 }
 
 .menu {
+  justify-content: center;
   display: flex;
+  gap: 10px;
 }
 
 .menu li {
-  margin-left: 10px;
   color: #f3f3f3;
 }
 
@@ -180,19 +185,16 @@ p {
 .descricao {
   max-width: 800px;
   text-align: start;
-  margin: 40px auto;
+  margin: 80px auto;
   padding: 0 20px;
 }
 .descricao-texto {
   margin-bottom: 10px;
-  text-indent: 60px;
+  /* text-indent: 60px; */
 }
 
 /* PROJETOS */
 
-.projetos {
-  margin-top: 100px;
-}
 .projetos h2 {
   text-align: center;
   margin-bottom: 40px;
@@ -307,9 +309,15 @@ footer {
   }
 }
 @media (max-width: 600px) {
-  .header .nav {
-    justify-content: center;
+  .header {
+    display: block;
+    text-align: center;
   }
+
+  .header h1 {
+    margin-bottom: 20px;
+  }
+
   .home h2 {
     font-size: 1.725rem;
   }
