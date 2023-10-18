@@ -168,11 +168,6 @@ p {
   margin-right: 20px;
 }
 
-.home-container .img-home {
-  width: 400px;
-  height: 400px;
-  background-image: url('../img/logo.svg');
-}
 /* SOBRE */
 
 .sobre {
