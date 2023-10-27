@@ -139,7 +139,7 @@ p {
   background-color: #1c59e7;
 
   z-index: -1;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .btn-linkedin:hover:before {
   width: 100%;
@@ -158,7 +158,7 @@ p {
   background-color: #6e40c9;
 
   z-index: -1;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 .btn-github:hover:before {
   width: 100%;
@@ -245,7 +245,7 @@ p {
   background-color: #0536a8;
 
   z-index: -1;
-  transition: 0.4s;
+  transition: 0.3s;
 }
 
 .container-links a:hover::before {
