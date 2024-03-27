@@ -1,0 +1,19 @@
+/* SOBRE */
+
+.sobre {
+    text-align: center;
+  }
+  
+  .sobre img {
+    margin: 0 auto;
+  }
+  .descricao {
+    max-width: 800px;
+    text-align: start;
+    margin: 100px auto;
+    padding: 0 20px;
+  }
+  .descricao-texto {
+    margin-bottom: 10px;
+    color: #e0e1dd;
+  }

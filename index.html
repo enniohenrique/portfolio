@@ -6,14 +6,21 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Portfólio | Ennio - Desenvolvedor Front-End</title>
     <link rel="stylesheet" href="./css/style.css">
-    <meta name="description" content="Portfólio de um desenvolvedor Front-End mostrando os principais conhecimentos e projetos. ">
-    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="./css/header.css">
+    <link rel="stylesheet" href="./css/home.css">
+    <link rel="stylesheet" href="./css/sobre.css">
+    <link rel="stylesheet" href="./css/projetos.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+
+    <meta name="description" content="Portfólio de um desenvolvedor Front-End mostrando os principais conhecimentos e projetos feitos utilizando as principais tecnologias da web. ">
+    <link rel="shortcut icon" href="./img/favicon2.ico" type="image/x-icon">
     <script type="module" src="./js/script.js" defer></script>
 </head>
 
 <body>
     <header class="header">
-        <h1>Portfólio</h1>
+        <h2>Portfólio</h2>
         <nav class="nav">
             <ul class="menu">
                 <li> <a href="#home">Home</a> </li>
@@ -26,7 +33,7 @@
         <div class="home-container">
             <div class="informacoes">
                 <h2>Olá, Eu sou o <span>Ennio</span></h2>
-                <h4 class="efeito-texto"></h4>
+                <h1 class="efeito-texto"></h1>
 
                 <div class="btn-container">
                     <a class="btn-linkedin" href="https://www.linkedin.com/in/enniohenrique/" target="_blank">
@@ -50,66 +57,92 @@
         <img src="./img/sobre.svg" alt="Logo sobre mim">
         <div class="descricao">
             <p class="descricao-texto">
-                Olá, meu nome é Ennio! Sou um jovem de 21 anos e entusiasta da tecnologia que está trilhando seu caminho nessa jornada da programação. Desde criança, sempre fui cativado pela magia da tecnologia e pelas infinitas possibilidades que ela oferece. Atualmente, estou focado no mundo do desenvolvimento Front-End, onde posso unir minha paixão pela estética visual com a habilidade de criar experiências digitais envolventes.
+                Olá, meu nome é Ennio! Sou um jovem de 22 anos, manauara e entusiasta da tecnologia que está trilhando seu caminho nessa jornada da programação. Desde criança, sempre fui cativado pela magia da tecnologia e pelas infinitas possibilidades que ela oferece. Atualmente, estou focado no mundo do desenvolvimento Full Stack, onde posso unir minha paixão pela estética visual com a habilidade de criar experiências digitais envolventes.
             </p>
-            <p class="descricao-texto"> Estou sempre estudando sobre novas tecnologias, frameworks e padrões de design para garantir que meus projetos estejam sempre alinhados com as melhores práticas do mercado. No momento, algumas das principais tecnologias que possuo conhecimento são: HTML, CSS, JavaScript, React, Git e Github. Acredito que aprender é um processo contínuo, e estou me esforçando cada dia mais para me tornar bom desenvolvedor.</p>
+            <p class="descricao-texto"> Estou sempre estudando sobre novas tecnologias, frameworks e padrões de design para garantir que meus projetos estejam sempre alinhados com as melhores práticas do mercado. No momento, algumas das principais tecnologias que possuo conhecimento são: HTML, CSS, JavaScript, React, Git, Node, Express e MySql. Acredito que aprender é um processo contínuo, e estou me esforçando cada dia mais para me tornar bom desenvolvedor.</p>
         </div>
+
+
     </section>
 
     <section id="projetos" class="projetos">
         <h2 class="titulo">Projetos</h2>
-        <div class="projetos-container">
-            <div class="flex">
-                <img src="./img/site1.jpg" alt="Site Dogs">
-                <div>
-                    <h3 class="titulo-projeto">Dogs - Rede Social</h3>
-                    <p class="descricao-projeto">Meu projeto mais recente que fiz como parte do curso de React. Uma rede social para postagem de fotos de cachorros, onde o usuário pode se cadastrar, fazer login, postar fotos e comentários, deletar fotos, visualizar o perfil de outros usuários e muito mais através de uma API criada a parte.</p>
-                    <div class="container-links">
-                        <a class="link" href="https://github.com/enniohenrique/dogs" target="_blank">Repositório</a>
-                        <a class="site" href="https://enniohenrique.github.io/dogs/" target="_blank">Visitar Site</a>
+
+        <div class="flex-container">
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front dogs">
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 class="titulo-projeto">Dogs | Rede social</h3>
+
+                        <p class="descricao-projeto">Meu projeto mais recente que fiz como parte do curso de React. Uma rede social para postagem de fotos de cachorros, onde o usuário pode se cadastrar, fazer login, postar fotos e comentários, deletar fotos, visualizar o perfil de outros usuários e muito mais através de uma API criada a parte.</p>
+
+                        <div class="container-links">
+                            <a class="link" href="https://github.com/enniohenrique/dogs" target="_blank">Repositório</a>
+                            <a class="link" href="https://enniohenrique.github.io/dogs/" target="_blank">Visitar Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="flex">
-                <img src="./img/site2.jpg" alt="Site Bikcraft">
-                <div>
-                    <h3 class="titulo-projeto">Bikcraft</h3>
-                    <p class="descricao-projeto">Um site completo de bicicletas personalizadas que foi feito como projeto do curso de Web Design Completo. Primeiro foi criado o seu wireframe, através do AbodeXD, e depois a criação do site foi feita utiliando HTML, CSS e JavaScript.</p>
-                    <div class="container-links">
-                        <a class="link" href="https://github.com/enniohenrique/bikcraft" target="_blank">Repositório</a>
-                        <a class="site" href="https://enniohenrique.github.io/bikcraft/" target="_blank">Visitar Site</a>
+
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front bikcraft">
+
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 class="titulo-projeto">Bikcraft</h3>
+
+                        <p class="descricao-projeto">Um site completo de bicicletas personalizadas que foi feito como projeto do curso de Web Design Completo. Primeiro foi criado o seu wireframe, através do AbodeXD, e depois a criação do site foi feita utiliando HTML, CSS e JavaScript.</p>
+
+                        <div class="container-links">
+                            <a class="link" href="https://github.com/enniohenrique/bikcraft" target="_blank">Repositório</a>
+                            <a class="link" href="https://enniohenrique.github.io/bikcraft/" target="_blank">Visitar Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="flex">
-                <img src="./img/site3.jpg" alt="Site Animais Fantásticos">
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front agenda">
 
-                <div>
-                    <h3 class="titulo-projeto">Animais Fantásticos</h3>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 class="titulo-projeto">Agenda</h3>
 
-                    <p class="descricao-projeto">Um site feito como parte do curso de JavaScript Completo, onde utilizei muitas funções do js, como: Fetch de api's, funções assíncronas, criação de modal, menu-mobile, animações e muitas outras. </p>
+                        <p class="descricao-projeto">Um projeto feito com foco no back-end. Foi utilizando o framework express para criar o back-end junto com o MongoDB no banco de dados. O deploy foi feito no Google Cloud Platform, usando o pm2 para gerenciar os processos e o nginx para o proxy reverso.</p>
 
-                    <div class="container-links">
-                        <a class="link" href="https://github.com/enniohenrique/animais-fantasticos" target="_blank">Repositório</a>
-                        <a class="site" href="https://enniohenrique.github.io/animais-fantasticos/" target="_blank">Visitar Site</a>
+                        <div class="container-links">
+                            <a class="link" href="https://github.com/enniohenrique/projeto-agenda" target="_blank">Repositório</a>
+                            <a class="link-disabled">Visitar Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
-            <div class="flex">
-                <img src="./img/site4.jpg" alt="Site Todo List">
-                <div>
-                    <h3 class="titulo-projeto">Todo List Avançado</h3>
 
-                    <p class="descricao-projeto">Uma aplicação para aprofundar os conhecimentos em JavaScript. Uma todo List onde o usuário pode adicionar, remover, editar e filtrar tarefas de acordo com seu estado atual (finalizada ou a fazer). Além disso, todas essas informações são salvas no Local Storage.</p>
+            <div class="flip-card">
+                <div class="flip-card-inner">
+                    <div class="flip-card-front brasilShow">
 
-                    <div class="container-links">
-                        <a class="link" href="https://github.com/enniohenrique/todo-list" target="_blank">Repositório</a>
-                        <a class="site" href="https://enniohenrique.github.io/todo-list/" target="_blank">Visitar Site</a>
+                    </div>
+                    <div class="flip-card-back">
+                        <h3 class="titulo-projeto">Sistema Brasil Show</h3>
+
+                        <p class="descricao-projeto">Um sistema desenvolvido para a empresa Brasil Show para gerenciar os seus eventos. Foi utilizando a biblioteca React para criar a interface e o firestore database no banco de dados. </p>
+
+                        <div class="container-links">
+                            <a class="link-disabled">Repositório</a>
+                            <a class="link-disabled">Visitar Site</a>
+                        </div>
                     </div>
                 </div>
             </div>
         </div>
     </section>
+
     <footer>
         <p>Portfólio | Ennio</p>
     </footer>

@@ -1,4 +1,4 @@
-const frases = ['Desenvolvedor Front-End', 'Front-End Developer'];
+const frases = [ 'Desenvolvedor Full Stack','Full Stack Developer'];
 const typewriter = document.querySelector('.efeito-texto');
 
 let indexFraseAtual = 0;
@@ -27,12 +27,14 @@ function apagarTexto() {
 
 digitarProximaLetra(); // Inicia o efeito de digitação
 
-const header = document.querySelector('.header');
+// const header = document.querySelector('.header');
 
-document.addEventListener('scroll', (event) => {
-  if (window.scrollY > 0) {
-    header.style.backgroundColor = '#0536a8';
-  } else {
-    header.style.backgroundColor = '#10101a';
-  }
-});
+// document.addEventListener('scroll', (event) => {
+//   if (window.scrollY > 0) {
+//     header.style.backgroundColor = '#0536a8';
+//   } else {
+//     header.style.backgroundColor = '#10101a';
+//   }
+// });
+
+
